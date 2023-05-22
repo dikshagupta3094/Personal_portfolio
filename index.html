@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+   <!-- ----Adding font awesome cdn link---- -->
+   <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+   <!-- Google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+
+   <!-- Css File -->
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <!-- Header section -->
+    <header>
+        <div class="user">
+            <img src="./assest/1.jpeg" alt="Diksha">
+            <h3>Diksha Gupta</h3>
+            <p>Web developer</p>
+        </div>
+
+        <nav class="navbar">
+            <ul id="menu">
+                <li> <a class="menuItem" href="#Home">Home</a></li>
+                <li><a class="menuItem" href="#about">About</a></li>
+                <li><a class="menuItem" href="#Project">Projects</a></li>
+                <li><a class="menuItem" href="#contact">Contact</a></li>
+                
+                <div id="hamburger">
+                    <i class="fa-solid fa-bars" id="openmenu" onclick="openmenu()"></i>
+                </div>
+        </nav>
+      
+    </header>
+    <!-- Header ends----- -->
+
+
+
+    <!-- Home Section Starts -->
+
+    <section class="home" id="Home">
+        <h3>Hi Everyone</h3>
+        <h1> I'M <span> Diksha Gupta</span></h1>
+        <p>Currently I am a student and I always eager to learn new things.I am a self motivated person and  I love to design a website and I am looking forward more opportunites to work in the domain of web development. I also have a Knowledge of programming lanugages like c and c++</p>
+    </section>
+    <!-- ----Home section ends -->
+
+
+
+
+    <!-- About section starts -->
+    
+    <section class="about" id="about">
+          <h1 class="heading"> <span> About</span> me</h1>
+            <div class="container1">
+                <div class="box box1">
+                    <h3>Skills</h3>
+                    <p> HTML <br>CSS <br> Javascript <br> C programming <br> c++</p>
+                </div>
+                <div class="box box2">
+                    <h3>Education</h3>
+                    <p>
+                        <span>College:</span> International Institute of professional studies DAVV,  Indore
+                        <br>
+                        <span> Course:</span> BCA
+                        <br>
+                       <span> School:</span> Pragya Girls School, Indore
+                    </p>
+                </div>
+                <div class="box box3">
+                    <h3>Experience</h3>
+                    <p> fresher</p>
+                </div>
+            </div>
+          </div>
+          <p></p>
+    </section>
+<!-- ---About section ends -->
+
+
+
+<!-- Project section starts -->
+
+<div class="Project" id="Project" >
+    <div class="container">
+        <h1>Projects</h1>
+        <div class="project-list">
+            <div class="project-img">
+                <img src="assest/Screenshot (26).png" alt="Resturant">
+                <div class="project-description">
+                    <h3>Resturant website</h3>
+                    <p>A resturant that serves only a delicious food</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project-img">
+                <img src="assest/Screenshot (27).png">
+                <div class="project-description">
+                    <h3> Institute website</h3>
+                    <p>A Institute that helps to crush your competiton</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project-img">
+                <img src="assest/Screenshot (28).png">
+                <div class="project-description">
+                    <h3> Company website</h3>
+                    <p>A Company that builds better tommorrow</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project-img">
+                <img src="assest/Screenshot (199).png"> <div class="project-description">
+                    <h3>Music Website</h3>
+                    <p>Beats landing web page</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project-img">
+                <img src="assest/Screenshot (200).png">
+                <div class="project-description">
+                    <h3> Hospital website</h3>
+                    <p>Hospital that serves service 24/7 and provide best tratement</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project-img">
+                <img src="assest/Screenshot (201).png">
+                <div class="project-description">
+                    <h3> Demo Portfolio website</h3>
+                    <p>A website that helps beginner to build their portfolio</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Project section ends -->
+
+
+
+<!-- -----contact section starts------ -->
+
+<div class="contact" id="contact">
+    <div class="container-contact">
+    <div class="contact-section">
+       <div class="contact-left-section">
+         <h1> Contact Me</h1> 
+           <p><i class="fa-solid fa-envelope"></i>dikshagpragya@gmail.com</p>
+           <p><i class="fa-solid fa-phone"></i>7258297764</p>
+         <div class="social-media">
+          <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+           <a href="#"><i class="fa-brands fa-github"></i></a>
+           <a href="#"><i class="fa-brands fa-instagram"></i></a>
+         </div>
+       </div>
+       <div class="contact-right-section">
+         <form>
+           <input type="text" name="Name" placeholder="your name" required>
+         
+           <input type="email"name="Emai" placeholder="your email" required>
+         
+           <textarea name="text"  rows="6" placeholder="your message"></textarea>
+           
+           <button>Submit</button>
+         </form>  
+       </div>
+    </div>
+    </div>
+</div>
+<!-- Contact section end -->
+</body>
+</html>
